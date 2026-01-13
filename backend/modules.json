@@ -1,0 +1,22 @@
+{
+  "modules": [
+    {
+      "id": "langflow",
+      "name": "Workflow Builder",
+      "description": "Visual AI workflow and pipeline builder",
+      "url": "http://langflow:7860",
+      "healthEndpoint": "/health",
+      "icon": "workflow",
+      "category": "builder"
+    },
+    {
+      "id": "talk-to-data",
+      "name": "Talk to Data",
+      "description": "Natural language database querying",
+      "url": "http://test-dynamic-sql:7000",
+      "healthEndpoint": "/health",
+      "icon": "database",
+      "category": "tools"
+    }
+  ]
+}
